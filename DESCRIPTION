@@ -1,0 +1,17 @@
+Package: DataConversionR
+Type: Package
+Title: Conversion of Data From One Format to Another Desired Format
+Version: 0.1.2
+Author: Saino Renjit
+Maintainer: Saino Renjit<saino.renjith@citta.ai>
+Description: Data conversion is the process of transforming data from one format to another.It involves extracting data from its original source, transforming the data into the desired format, and finally, loading the data into the source location.
+Depends: R (>= 3.2.3)
+License: GPL-2
+Encoding: UTF-8
+LazyData: TRUE
+Imports:
+    rjson,utils
+Suggests:
+    knitr,
+    rmarkdown
+RoxygenNote: 6.0.1
